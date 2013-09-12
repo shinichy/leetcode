@@ -1,4 +1,4 @@
-object Solution {
+object SumsOfPowers {
 
 
   def numberOfWays(X:Int,N:Int):Int = {

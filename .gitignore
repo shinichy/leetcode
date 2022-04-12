@@ -4,3 +4,6 @@ out
 .m2
 *.iml
 .nrepl-port
+.bsp
+project
+target

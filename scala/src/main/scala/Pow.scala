@@ -1,19 +1,19 @@
 object Pow {
   def main(args: Array[String]): Unit = {
-    println(pow(3, 2))
+    println(pow(4, 3))
   }
 
   def pow(x: Long, n: Long): Long = {
-    var ret = 1L
-    var x2 = x
-    var n2 = n
-    while (n2 > 0) {
-      if ((n2 & 1) == 1L) {
-        ret *= x2
+    if (n == 0) {
+      1
+    } else {
+      val a = pow(x, n / 2)
+
+      if (n % 2 == 0) {
+        a * a
+      } else {
+        x * a * a
       }
-      x2 *= x2
-      n2 >>= 1
     }
-    ret
   }
 }

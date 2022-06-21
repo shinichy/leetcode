@@ -2,12 +2,12 @@
   * ListNode = null) { var next: ListNode = _next var x: Int = _x }
   */
 
+
+object AddTwoNumbers {
 class ListNode(_x: Int = 0, _next: ListNode = null) {
   var next: ListNode = _next
   var x: Int = _x
 }
-
-object AddTwoNumbers {
   def main(args: Array[String]): Unit = {
     val l1 = toNodes(List(2, 4, 3))
     val l2 = toNodes(List(5, 6, 4))

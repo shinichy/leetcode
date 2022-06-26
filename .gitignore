@@ -7,3 +7,5 @@ out
 .bsp
 project
 target
+.build
+.metals

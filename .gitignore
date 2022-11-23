@@ -9,3 +9,4 @@ project
 target
 .build
 .metals
+.DS_Store
